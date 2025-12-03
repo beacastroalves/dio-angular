@@ -7,6 +7,7 @@
     "start": "npx tsc && node dist/index.js",
     "functions": "npx tsc && node dist/functions.js",
     "interface": "npx tsc && node dist/interfaces.js",
+    "classes": "npx tsc && node dist/classes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
