@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx tsc && node dist/index.js",
-    "dev": "npx tsc && node dist/functions.js",
+    "functions": "npx tsc && node dist/functions.js",
+    "interface": "npx tsc && node dist/interfaces.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
