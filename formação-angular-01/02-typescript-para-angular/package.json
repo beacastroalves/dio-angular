@@ -8,6 +8,7 @@
     "functions": "npx tsc && node dist/functions.js",
     "interface": "npx tsc && node dist/interfaces.js",
     "classes": "npx tsc && node dist/classes.js",
+    "generics": "npx tsc && node dist/generics.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
