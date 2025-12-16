@@ -12,7 +12,7 @@ class Api {}
 
 const api = new Api();
 console.log("class decorator:")
-console.log(api.__name);
+// console.log(api.__name);
 console.log("--- --- --- ---")
 
 
