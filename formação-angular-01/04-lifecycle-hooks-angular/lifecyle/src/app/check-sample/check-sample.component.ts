@@ -19,9 +19,20 @@ export class CheckSampleComponent implements
   AfterContentChecked,
   AfterContentInit,
   AfterViewChecked,
-  AfterViewInit {
+  AfterViewInit
+{
+
+  quantidade:number = 0;
 
   constructor() { }
+
+  adicionar() {
+    this.quantidade += 1;
+  }
+
+  decrementar() {
+    this.quantidade -= 1;
+  }
 
   ngAfterViewInit(): void {
     console.log(`ngAfterViewInit`);
