@@ -24,4 +24,8 @@ export class CardComponent implements OnInit {
   adicionar() {
     this.produtos.push("Exemplo de Produto");
   }
+
+  remover(index: number) {
+    this.produtos.splice(index, 1);
+  }
 }
