@@ -1,10 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent {
+export class CardComponent implements OnInit {
+  produtos:string[] = [];
 
+  constructor() {
+    this.produtos = [
+      "mouse",
+      "teclado",
+      "cabo",
+      "fone"
+    ]
+  }
+
+  ngOnInit(): void {
+    
+  }
+
+  adicionar() {
+    this.produtos.push("Exemplo de Produto");
+  }
 }
