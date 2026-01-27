@@ -6,21 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comp-atributos.component.css']
 })
 export class CompAtributosComponent implements OnInit {
-  estilo:string = "disable";
+  estilo:string = 'disable';
+  corFundo:string = 'red';
+  corDaFonte:string = 'yellow'
 
   constructor() {
 
   }
 
   ngOnInit(): void {
-    console.log("OnInit");
+    console.log('OnInit');
   }
 
   trocar(){
     if(this.estilo === 'disable' ) {
-      this.estilo = "enable";
+      this.estilo = 'enable';
     } else {
-      this.estilo = "disable";
+      this.estilo = 'disable';
     }
   }
 }
