@@ -2,6 +2,9 @@
 <button (click)="trocar()">Change</button>
 <h1 [ngStyle]="{'background': corFundo, 'color': corDaFonte}">Curso Angular</h1>
 
+<ng-content select="h2"></ng-content>
+<ng-content select="p"></ng-content>
+
 <h1>Lista de Compras</h1>
 <p>Adicione um item</p>
 <input type="text" [(ngModel)]="item">
